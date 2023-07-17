@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+}
+
+.main--body {
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 360px;
+  margin-right: 20px;
+  box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -webkit-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  -moz-box-shadow: 5px 5px 5px 1px rgba(120,120,120,0.44);
+  
+}
+
+.card--image {
+  width: 200px;
+  height: 210px;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.card--title {
+  font-size: 15px;
+  margin-block: 13px;
+  color: #333333;
+}
+
+.card--info {
+  padding: 10px;
+}
+
+.card--favourite {
+  width: 20px;
+  cursor: pointer;
+}
+
+.card--contact {
+  font-size: 0.95rem;
+  color: gray;
+  margin-block: 5px;
+}
+
+.section {
+  flex: 0 0 auto;
+  min-width: 400px; /* Adjust the width as needed */
+  padding: 5px;  
+}
+
+.section--heading{
+  margin-bottom: 0px;
+  padding-bottom: opx;
+  font-size: 20px;
+}
+.section--box{
+  width: 10000px;
+  display: flex;
+  border-top: 6px solid gray;
+  padding: 10px;
+  overflow-x: auto;
+}
+.button--fav {
+  margin-bottom: 20px;
+}
